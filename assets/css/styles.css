@@ -69,6 +69,33 @@ body {
     top:-15px;
 }
 
+.container-servicio-2{
+    height: 100%;
+}
+
+.container-servicio-3{
+    height: 100%;
+    position: relative;
+    top:10%;
+}
+
+.container-servicio-lista-2{
+    background: MediumSlateBlue;
+    height:350px; 
+} 
+
+.container-titulo-servicio-2{
+    height: 25%;
+}
+
+.etiqueta-texto-0{
+    all:unset;
+}
+
+.etiqueta-texto-0:hover{
+    color:magenta;
+}
+
 .etiqueta-1{
     background: white;
     width: 150px;
@@ -103,6 +130,18 @@ body {
     border-radius:50px;
 }
 
+.etiqueta-grande-servicio-1{
+    width:90%;
+    height:90%;
+    color:white;
+}
+
+.etiqueta-grande-servicio-2{
+    width:90%;
+    height:90%;
+    color:white;
+}
+
 header{
     background-image: url(/assets/img/img1.jpg); 
     background-repeat: no-repeat; 
@@ -111,6 +150,46 @@ header{
     width: 100%;
     height: 750px;
     display: flex;  
+}
+
+.header-2{
+    background-image: url(/assets/img/background-3.jpg); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.header-4{
+    background-image: url(/assets/img/background-4.jpg); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.header-5{
+    background-image: url(/assets/img/background-5.jpg); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.header-6{
+    background-image: url(/assets/img/background-6.jpg); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    width: 100%;
+    height: 300px;
+    display: flex;
 }
 
 .imagen-banner-1{
@@ -138,6 +217,7 @@ header{
     height: 60px;
     position: relative;
     background: #000000;
+    cursor: pointer;
   }
 .pointer:before {
     content: "";
@@ -150,6 +230,12 @@ header{
     border-top: 30px solid transparent;
     border-bottom: 30px solid transparent;
   }
+
+  .pointer:hover {
+    width: 300px;
+  }
+
+
 
 .pointer-1{
     background: #444444;
@@ -171,7 +257,63 @@ header{
     border-bottom: 30px solid transparent;
   }
 
+  .pointer-servicio {
+    width: 400px;
+    height: 90px;
+    position: relative;
+    background: #000000;
+  }
+
+  .pointer-servicio:before {
+    content: "";
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 31px solid #444444;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+  }
+
+  
+  .pointer-servicio-2{
+    background: #444444;
+}
+.pointer-servicio-2:before {
+    content: "";
+    position: absolute;
+    right: -44px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 45px solid #444444;
+    border-top: 46px solid transparent;
+    border-bottom: 45px solid transparent;
+  }
+
+  .pointer-servicio-3 {
+    width: 600px;
+    height: 90px;
+    position: relative;
+    background: #444444;
+  }
+
+  .pointer-servicio-3:before {
+    content: "";
+    position: absolute;
+    right: -44px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 45px solid #444444;
+    border-top: 46px solid transparent;
+    border-bottom: 45px solid transparent;
+  }
+
+
 .servicios-1{
+    all:unset;
     position: relative;
     top:25%;
     left:15%;
@@ -185,6 +327,34 @@ header{
     left:15%;
     color:white;
     font-size: 1.5rem;
+}
+
+.servicios-titulo-1{
+    position: relative;
+    top:15%;
+    left:25%;
+    color:white;
+    font-size: 3rem;
+}
+
+.solicite-presupuesto{
+    height: 90px;
+}
+
+.texto-solicite{
+    all:unset;
+    font-size: 3rem;
+    background: linear-gradient(Magenta, Indigo);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    cursor:pointer;
+}
+
+.texto-solicite:hover {
+    background: linear-gradient(Gold, Tomato);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .titulo-acerca-1{
@@ -224,6 +394,12 @@ header{
 
 .titulo-rubro-2{
     font-size: 3rem;
+}
+
+.titulo-servicio-2{
+    font-size: 2rem;
+    font-weight: bolder;
+    color:white;
 }
 
 
