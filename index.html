@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    <header class=" container-fluid d-flex flex-row ">
+    <header class=" container-fluid d-flex flex-column flex-sm-row">
 
-        <div class="col-9 d-flex flex-column" style="border: 1px transparent">
+        <div class="col-12 col-sm-9 d-flex flex-column marca" style="border: 1px transparent">
             <div class="d-flex justify-content-center align-items-center" style="height:40%">
                 <div class=" titulo-marca container-fluid d-flex flex-row " >
                     <div class="col-1" >
@@ -24,7 +24,7 @@
                     </div>
                 </div>
             </div>
-            <div class="d-flex justify-content-center align-items-center offset-2" style="height:30%">
+            <div class="d-flex justify-content-center align-items-center offset-2 container-rubro">
                 <div class="titulo-rubro">
                     <h1 class="titulo-rubro-1"><br>Construcción y </br>Servicios Integrales</h1>
                     <h3 class="titulo-rubro-2">Empresas y particulares</h3>
@@ -32,7 +32,7 @@
             </div>
         </div>
 
-        <div class="col-3 container-fluid d-flex flex-column justify-content-start align-baseline">
+        <div class="col-10 col-lg-3 container-fluid d-flex flex-column justify-content-start align-baseline etiquetas">
                 <div class="pointer pointer-1 mt-5 mb-3">
                     <h2 class="servicios-1"><a class="etiqueta-texto-0" href="arquitectura/index.html">Arquitectura</a></h2>
                 </div>
@@ -51,13 +51,13 @@
         </div>
     </header>
 
-    <article class="article-1 container-fluid d-flex flex-column ">
+    <article class="article-1 container-fluid d-flex flex-column pt-3 pt-lg-0">
         <div class="d-flex justify-content-center align-items-center" style="height:60%">
-            <h2 class="parrafo-pitch col-6">
+            <h2 class="parrafo-pitch col-10 col-lg-6">
                 Consigue las mejores opciones de servicios para tu casa o empresa con el asesoramiento de profesionales altamente calificados. 
              </h2>
         </div>
-        <div class="container d-flex justify-content-around align-items-center" style="width:60%;height:20%">
+        <div class="container d-flex justify-content-around align-items-center container-etiquetas-2">
             
             <div class="etiqueta-1 d-flex justify-content-center align-items-center">
                 <img src="assets/img/icono-limpieza.PNG" alt="Girl in a jacket" width="90%" height="90%"> 
@@ -78,9 +78,9 @@
     </article>
     
     <a id="formulario"></a>
-    <article class="article-2 container-fluid d-flex flex-row ">
+    <article class="article-2 container-fluid d-flex flex-column flex-lg-row ">
         
-        <div class="col-7 d-flex flex-column justify-content-center align-items-center">
+        <div class="col-12 col-sm-12 col-lg-7 d-flex flex-column justify-content-center align-items-center my-4 my-sm-5 my-lg-0">
             <div class="etiqueta-grande-1 d-flex flex-column justify-content-center align-items-center col-8" >
                 <h3 class="titulo-acerca-1">Acerca de "Lo Hacemos"</h3>
                 <h5 class="col-8 mt-3 titulo-acerca-2">Lo hacemos, nace como una solución integral que lo distingue como sello único, al contar con profesionales
@@ -90,9 +90,9 @@
             
         </div>
 
-        <div class="col-5 d-flex flex-column justify-content-center align-items-center">
+        <div class="col-12 col-sm-12 col-lg-5 d-flex flex-column justify-content-center align-items-center">
             <div class="etiqueta-grande-2 d-flex flex-column justify-content-center align-items-center col-8" >
-                <h3 class="col-11 mb-3 titulo-acerca-1">Cotiza con nosotros</h3>
+                <h3 class="col-9 col-sm-7 col-lg-11 mb-3 titulo-acerca-1">Cotiza con nosotros</h3>
             <div class="col-12">
                 <div class="d-flex flex-row justify-content-center align-items-center">
                     <p class="label-form col-3 mt-3">Nombre</p>
@@ -130,14 +130,14 @@
     <article class="article-3 container-fluid d-flex flex-row ">
         
         <div class="col-12 d-flex flex-column justify-content-center align-items-center">
-            <div class="etiqueta-grande-3 d-flex flex-row justify-content-center align-items-center" >
-                <div class="col-6">
-                    <h3 class="titulo-clientes-1">Clientes satisfechos!</h3>
+            <div class="etiqueta-grande-3 d-flex flex-column flex-sm-row justify-content-center align-items-center" >
+                <div class="col-9 col-sm-4 col-lg-6">
+                    <h3 class="titulo-clientes-1 titulo-clientes-1-1">Clientes satisfechos!</h3>
                 </div>
-                <div class="col-5 d-flex flex-column justify-content-around align-items-center p-5" style="height:100%">
-                    <div class="etiqueta-cliente-1 d-flex flex-column justify-content-around align-items-start">
+                <div class="col-12 col-sm-8 col-lg-5 d-flex flex-column justify-content-around align-items-center p-5" style="height:100%">
+                    <div class="etiqueta-cliente-1 etiqueta-cliente-1-1 d-flex flex-column justify-content-around align-items-start">
                         <p class="comentario-cliente-1">Nos mantuvieron informados durante todo el proceso.</p>
-                        <p class="comentario-cliente-2">Juan García</p>
+                        <p class="comentario-cliente-2 comentario-cliente-2-2">Juan García</p>
                     </div>
                     <div class="etiqueta-cliente-1">
                         <p class="comentario-cliente-1">Siempre confío en Lo Hacemos para que se ocupe de los 
@@ -164,16 +164,16 @@
                 <img src="assets/img/asociate-2.PNG" alt="Girl in a jacket" width="30%"> 
                 <img src="assets/img/asociate-3.PNG" alt="Girl in a jacket" width="30%"> 
             </div>
-            <div class="d-flex flex-row justify-content-center align-items-center" >
-                <div class="col-6">
+            <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center" >
+                <div class="col-8 col-sm-5 col-lg-6">
                     <h3 class="titulo-clientes-1">Llamanos por teléfono o Whatsapp</h3>
                 </div>
-                <div class="col-5 d-flex flex-column justify-content-around align-items-center p-5" style="height:100%">
-                    <div class="etiqueta-cliente-1 d-flex flex-column justify-content-center align-items-start">
+                <div class="col-12 col-sm-5 col-lg-5 d-flex flex-column justify-content-around align-items-center p-5" style="height:100%">
+                    <div class="etiqueta-cliente-1 etiqueta-cliente-1-1 d-flex flex-column justify-content-center align-items-start">
                         <p class="contacto-1">Andrea Chávez</p>
                         <p class="contacto-2">9 8272 1454</p>
                     </div>
-                    <div class="etiqueta-cliente-1 d-flex flex-column justify-content-around align-items-start">
+                    <div class="etiqueta-cliente-1 etiqueta-cliente-1-2 d-flex flex-column justify-content-around align-items-start">
                         <p class="contacto-1">Daniela Flores</p>
                         <p class="contacto-2">9 5926 0586</p>
                     </div>
