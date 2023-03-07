@@ -3,6 +3,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.button-link{
+    all:unset;
+    cursor:pointer;
+}
+
 
  /* Extra small devices (phones, 600px and down) */
  @media only screen and (max-width: 600px) {
@@ -32,6 +37,30 @@ body {
     .article-4{
         width: 100%;
         height: 500px;
+    }
+
+    .btn-whatsapp{
+        position: fixed;
+        top: 80%;
+        left:75%;
+        height:5rem; 
+        z-index: 2;
+    }
+
+    .btn-telefono{
+        background: MidnightBlue;
+        position: fixed;
+        top: 92%;
+        left:35%;
+        width:500px;
+        height:4rem; 
+        z-index: 2;
+        font-size: 2rem;
+        color:white;
+        border:5px solid #dddddd;
+        border-radius: 10px;
+        padding: 0px;
+        padding-left: 30px;
     }
     
     .comentario-cliente-1{
@@ -469,6 +498,30 @@ body {
     .article-4{
         width: 100%;
         height: 450px;
+    }
+
+    .btn-whatsapp{
+        position: fixed;
+        top: 52%;
+        left:53%;
+        height:8rem; 
+        z-index: 2;
+    }
+
+    .btn-telefono{
+        background: MidnightBlue;
+        position: fixed;
+        top: 60%;
+        left:35%;
+        width:500px;
+        height:4rem; 
+        z-index: 2;
+        font-size: 2rem;
+        color:white;
+        border:5px solid #dddddd;
+        border-radius: 10px;
+        padding: 0px;
+        padding-left: 30px;
     }
     
     .comentario-cliente-1{
@@ -911,6 +964,34 @@ body {
 .article-4{
     width: 100%;
     height: 600px;
+}
+
+.btn-whatsapp{
+    position: fixed;
+    top: 65%;
+    left:90%;
+    height:8rem; 
+    z-index: 2;
+}
+
+.btn-telefono{
+    background: MidnightBlue;
+    position: fixed;
+    top: 85%;
+    left:78%;
+    width:500px;
+    height:6rem; 
+    z-index: 2;
+    font-size: 3rem;
+    color:white;
+    border:10px solid #dddddd;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 30px;
+}
+
+.btn-telefono:hover{
+    color:magenta;
 }
 
 .comentario-cliente-1{
