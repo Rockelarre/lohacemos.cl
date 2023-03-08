@@ -990,10 +990,11 @@ body {
     padding-left: 30px;
 }
 
-.btn-telefono:hover{
-    color:magenta;
+.btn-mensaje{
+    position: relative;
+    left:25%;
 }
-
+ 
 .comentario-cliente-1{
     color:#444444;
     font-size: 1.3rem;
