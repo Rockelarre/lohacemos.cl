@@ -100,38 +100,40 @@
         <div class="col-12 col-sm-12 col-lg-5 d-flex flex-column justify-content-center align-items-center">
             <div class="etiqueta-grande-2 d-flex flex-column justify-content-center align-items-center col-8" >
                 <h3 class="col-9 col-sm-7 col-lg-11 mb-3 titulo-acerca-1">Cotiza con nosotros</h3>
-            <div class="col-12">
-                <div class="d-flex flex-row justify-content-center align-items-center">
-                    <p class="label-form col-3 mt-3">Nombre</p>
-                    <input class="input-form col-6 rounded-pill" type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                <div class="col-12">
+                    <form action="https://lo-hacemos-contacto.vercel.app/send-email" method="POST">
+                        <div class="d-flex flex-row justify-content-center align-items-center">
+                            <p class="label-form col-3 mt-3">Nombre</p>
+                            <input name="nombre" class="input-form col-6 rounded-pill" type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                        </div>
+                        <div class="d-flex flex-row justify-content-center align-items-center">
+                            <p class="label-form col-3 mt-3">Teléfono</p>
+                            <input name="telefono" class="input-form col-6 rounded-pill" type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                        </div>
+                        <div class="d-flex flex-row justify-content-center align-items-center">
+                            <p class="label-form col-3 mt-3">Correo</p>
+                            <input name="correo" class="input-form col-6 rounded-pill" type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                        </div>
+                        <div class="d-flex flex-row justify-content-center align-items-center">
+                            <p class="label-form col-3 mt-3">Servicio</p>
+                            <select name="servicio" lass="form-select col-6 mb-3 rounded-pill" aria-label="" style="width:50%;">
+                                <option selected>Seleccionar</option>
+                                <option value="1">Arquitectura</option>
+                                <option value="2">Construcción</option>
+                                <option value="3">Mantenciones</option>
+                                <option value="1">Control de Plagas</option>
+                                <option value="2">Limpieza</option>
+                              </select>
+                        </div>
+                        <div class="d-flex flex-row justify-content-center align-items-center mb-3">
+                            <p class="label-form col-3 mt-3">Comentario</p>
+                            <textarea name="comentario" class="form-control rounded-4" id="exampleFormControlTextarea1" rows="3" style="width:50%;"></textarea>
+                        </div>
+                        <div class="d-flex flex-row justify-content-center align-items-center">
+                            <button type="submit" value="Enviar" class="btn btn-secondary btn-mensaje">Enviar mensaje</button>
+                        </div>
+                    </form>
                 </div>
-                <div class="d-flex flex-row justify-content-center align-items-center">
-                    <p class="label-form col-3 mt-3">Teléfono</p>
-                    <input class="input-form col-6 rounded-pill" type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
-                </div>
-                <div class="d-flex flex-row justify-content-center align-items-center">
-                    <p class="label-form col-3 mt-3">Correo</p>
-                    <input class="input-form col-6 rounded-pill" type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
-                </div>
-                <div class="d-flex flex-row justify-content-center align-items-center">
-                    <p class="label-form col-3 mt-3">Servicio</p>
-                    <select class="form-select col-6 mb-3 rounded-pill" aria-label="" style="width:50%;">
-                        <option selected>Seleccionar</option>
-                        <option value="1">Arquitectura</option>
-                        <option value="2">Construcción</option>
-                        <option value="3">Mantenciones</option>
-                        <option value="1">Control de Plagas</option>
-                        <option value="2">Limpieza</option>
-                      </select>
-                </div>
-                <div class="d-flex flex-row justify-content-center align-items-center mb-3">
-                    <p class="label-form col-3 mt-3">Comentario</p>
-                    <textarea class="form-control rounded-4" id="exampleFormControlTextarea1" rows="3" style="width:50%;"></textarea>
-                </div>
-                <div class="d-flex flex-row justify-content-center align-items-center">
-                    <button type="button" class="btn btn-secondary btn-mensaje">Enviar mensaje</button>
-                </div>
-            </div>
             </div>
             
         </div>
